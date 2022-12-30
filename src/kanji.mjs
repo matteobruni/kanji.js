@@ -2,7 +2,7 @@
 import * as wanakana from 'wanakana'
 import FuzzySet from 'fuzzyset.js'
 
-import dictionary from './kanjidic2/kanjidic2.min.mjs'
+import dictionary from './kanjidic2/kanjidic2.mjs'
 
 export default class Kanji {
   static dump () { return dictionary }
